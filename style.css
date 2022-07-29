@@ -79,3 +79,16 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
 }
+
+
+@media (max-height: 550px) {
+    main {
+        position: relative;
+        margin-top: 250px;
+        margin-bottom: 0;
+    }
+
+    .attribution {
+        margin: 0;
+    }
+}
